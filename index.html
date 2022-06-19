@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<title>Document</title>
+</head>
+<body>
+	<header>
+		<h1>Really bad lofi soundboard</h1>
+	</header>
+	<div id="soundboard">
+		<ul id="soundboard-buttons">
+			<li>
+				<button id="kick" class="soundboard-button">Kick</button>
+				<audio id="kick-audio" src="media/LofiKick.wav">Your browser does not support the <code>audio</code> element</audio>
+			</li>
+			<li>
+				<button id="snare" class="soundboard-button">Snare</button>
+				<audio id="snare-audio" src="media/LofiSnare.wav">Your browser does not support the <code>audio</code> element</audio>
+			</li>
+			<li>
+				<button id="hi-hat" class="soundboard-button">Hi-hat</button>
+				<audio id="hi-hat-audio" src="media/LofiHat.wav">Your browser does not support the <code>audio</code> element</audio>
+			</li>
+			<li>
+				<button id="shaker" class="soundboard-button">Shaker</button>
+				<audio id="shaker-audio" src="media/LofiShaker.wav">Your browser does not support the <code>audio</code> element</audio>
+			</li>
+		</ul>
+	</div>
+	<section>
+		<h2>Example:</h2>
+		<p>Please listen with headphones</p>
+		<button id="example">If Half-Life was a solo project</button>
+		<audio id="example-audio" src="media/really_bad_lofi_with_3o3.ogg">Your browser does not support the <code>audio</code> element</audio>
+	</section>
+	<script src="soundboard.js"></script>
+</body>
+</html>
